@@ -10,7 +10,7 @@ class TechList extends Component {
     return (
       <ul>
         {techs.map(tech => (
-          <li>{tech}</li>
+          <li key={tech}>{tech}</li>
         ))}
       </ul>
     );
